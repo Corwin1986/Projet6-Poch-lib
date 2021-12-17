@@ -1,5 +1,30 @@
 {
+  "name": "projet6",
+  "version": "1.0.0",
+  "description": "Red Hat Mono Variable Font ==========================",
+  "main": "indexjs.js",
   "dependencies": {
-    "sass": "^1.45.0"
-  }
+    "binary-extensions": "^2.2.0",
+    "anymatch": "^3.1.2",
+    "chokidar": "^3.5.2",
+    "braces": "^3.0.2",
+    "fill-range": "^7.0.1",
+    "is-binary-path": "^2.1.0",
+    "glob-parent": "^5.1.2",
+    "is-extglob": "^2.1.1",
+    "is-glob": "^4.0.3",
+    "picomatch": "^2.3.0",
+    "is-number": "^7.0.0",
+    "normalize-path": "^3.0.0",
+    "readdirp": "^3.6.0",
+    "to-regex-range": "^5.0.1",
+    "sass": "^1.43.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "sass":"sass --watch ./indexsass.sass:./style.css"
+  },
+  "author": "",
+  "license": "ISC",
+  "keywords": []
 }
